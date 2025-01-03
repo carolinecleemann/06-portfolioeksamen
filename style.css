@@ -13,10 +13,9 @@ header {
     font-family: Helvetica, Arial, sans-serif; 
     font-size: 50px;
     font-weight: bolder;
-    position: relative;
-    left: 20%;
-    padding: 20px;
-    color:rgb(106, 76, 76)
+    text-align: center;
+    color:rgb(106, 76, 76);
+    padding: 30px;
     
 }
 
@@ -98,11 +97,195 @@ header {
     color:rgb(106, 76, 76);
 }
 
+/*styling af projekter*/ 
+
+.web-link, .ui-link, .animation-link, .indhold-link {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    color: rgb(106, 76, 76);
+}
+
+.web-link {
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
+
+.web img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 5%;
+
+} 
+.ui-link {
+    position: absolute;
+    left: 15%;
+    top: 30%;
+}
+
+.ui img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 15%;
+    top: 8%;
+}
+
+.animation-link {
+    position: absolute;
+    left: 25%;
+    top: 55%;
+}
+
+.animation img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 15%;
+    top: 18%;
+}
+
+.indhold-link {
+    position: absolute;
+    left: 25%;
+    top: 65%;
+}
+
+.indhold img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 15%;
+    top: 30%;
+}
+
+/*styling af grundlæggende web*/
+/* 
+.mappe {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Afstand mellem sider */
+}
+/* 
+.side {
+    background: #f5f5f5; /* Lys baggrund som papir */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Skygge for dybde */
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%; /* Gør den mindre end fuld bredde */
+    position: relative; /* Gør det muligt at overlappe */
+}
+
+.side:nth-child(2) {
+    background: #eaeaea; /* Let mørkere farve */
+    transform: rotate(-2deg); /* Giv en let rotation */
+    z-index: 1; /* Sørger for lagdeling */
+  }
+  
+  .side:nth-child(3) {
+    background: #e0e0e0;
+    transform: rotate(1deg);
+    z-index: 2;
+  }
+  
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+} */ */
+
+
+.side-1 {
+    grid-template-columns: 2;
+    grid-template-rows: auto;
+
+}
+
+p, li {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    color: rgb(106, 76, 76);
+}
+
+/*styling til om mig*/ 
+
+.biografi img {
+    width: 500px;
+    height: auto;
+    position: relative;
+    left: 35%;
+    
+}
+
+.biografi h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(106, 76, 76);
+    
+}
+
+.biografi p {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    margin: 50px;
+}
+
+.biografi h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(106, 76, 76);
+}
+
+.uddannelse li {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    padding: 10px;
+    gap: 30px;
+}
+
+
+
+.kreativ_container {
+    padding: 20px 40px;
+    border: 1px;
+    background-color: rgb(212,223,210);
+    text-decoration: none;
+    text-align: center;
+    margin: 50px 500px;
+}
+
+.kreativ_container a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color:rgb(106, 76, 76);
+}
+
 footer {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    position: relative;
-    left: 30%;
+    text-align: center;
     color:rgb(106, 76, 76)
 
 }
