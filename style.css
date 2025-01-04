@@ -232,6 +232,13 @@ header {
 
 .baggrund_2 p {
     font-size: 12px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    color: rgb(106, 76, 76);
+
 }
 .overskrift_1 {
     font-family: Arial, Helvetica, sans-serif;
@@ -326,7 +333,7 @@ header {
     border: 1px;
     background-color: rgb(212,223,210);
     text-decoration: none;
-    text-align: center;
+    text-align: center; 
     margin: 50px 500px;
     
 }
@@ -347,33 +354,214 @@ header {
     align-items: center;
     gap: 20px; /* Afstand mellem sider */
 }
-/* 
-.side {
-    background: #f5f5f5; /* Lys baggrund som papir */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Skygge for dybde */
-    padding: 20px;
-    border-radius: 8px;
-    width: 80%; /* Gør den mindre end fuld bredde */
-    position: relative; /* Gør det muligt at overlappe */
+/* styling til ui/ux  */
+
+.tekst_container_5 {
+    position: absolute; /* Gør det muligt at placere boksen præcist */
+    top: 5%; /* Justér afstand fra toppen */
+    left: 13%; /* Justér afstand fra venstre */
+    width: 400px; /* Bredde på tekstboksen */
+    padding: 20px; /* Indre afstand for teksten */
+    background-color: transparent; /* Semi-transparent baggrund */
+    border-radius: 10px; /* Afrundede hjørner */
 }
 
-.side:nth-child(2) {
-    background: #eaeaea; /* Let mørkere farve */
-    transform: rotate(-2deg); /* Giv en let rotation */
-    z-index: 1; /* Sørger for lagdeling */
-  }
-  
-  .side:nth-child(3) {
-    background: #e0e0e0;
-    transform: rotate(1deg);
-    z-index: 2;
-  }
-  
-p {
-    font-size: 16px;
-    line-height: 1.5;
-    color: #666;
-} */ */
+.research1 {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    left: 30%;
+    bottom: 38%;
+}
+.research2 {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    left: 15%;
+    bottom: 45%;
+}
+.research3 {
+    width: 160px;
+    height: auto;
+    position: absolute;
+    left: 60%;
+    bottom: 140%;
+}
+.tekst_container_6 {
+    position: absolute; /* Gør det muligt at placere boksen præcist */
+    bottom: 2%; /* Justér afstand fra toppen */
+    left: 15%; /* Justér afstand fra venstre */
+    width: 300px; /* Bredde på tekstboksen */
+    padding: 20px; /* Indre afstand for teksten */
+    background-color: transparent; /* Semi-transparent baggrund */
+    border-radius: 10px; /* Afrundede hjørner */
+}
+
+.tekst_container_7 {
+    position: absolute; /* Gør det muligt at placere boksen præcist */
+    top: 2%; /* Justér afstand fra toppen */
+    right: 20%; /* Justér afstand fra venstre */
+    width: 420px; /* Bredde på tekstboksen */
+    padding: 20px; /* Indre afstand for teksten */
+    background-color: transparent; /* Semi-transparent baggrund */
+    border-radius: 10px; /* Afrundede hjørner */
+}
+.tekst_container_8 {
+    position: absolute; /* Gør det muligt at placere boksen præcist */
+    bottom: 10%;
+    right: 15%; /* Justér afstand fra venstre */
+    width: 220px; /* Bredde på tekstboksen */
+    padding: 20px; /* Indre afstand for teksten */
+    background-color: transparent; /* Semi-transparent baggrund */
+    border-radius: 10px; /* Afrundede hjørner */
+}
+.design0 {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    right: 20%;
+    top: 28%;
+}
+
+.design1 {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    right: 35%;
+    bottom: 35%;
+}
+.design2 {
+    width: 350px;
+    height: auto;
+    position: absolute;
+    right: 32%;
+    bottom: 10%;
+}
+
+.præs_container {
+    padding: 20px 40px;
+    border: 1px;
+    background-color: rgb(212,223,210);
+    text-decoration: none;
+    text-align: center; 
+    margin: 50px 500px;
+}
+
+.præs_container a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color:rgb(106, 76, 76);
+}
+
+/*styling af animation*/
+
+.tekst_container_9 {
+    position: absolute; /* Gør det muligt at placere boksen præcist */
+    top: 5%; /* Justér afstand fra toppen */
+    left: 14%; /* Justér afstand fra venstre */
+    width: 420px; /* Bredde på tekstboksen */
+    padding: 20px; /* Indre afstand for teksten */
+    background-color: transparent; /* Semi-transparent baggrund */
+    border-radius: 10px; /* Afrundede hjørner */
+}
+
+.tekst_container_10 {
+    position: absolute; /* Gør det muligt at placere boksen præcist */
+    bottom: 12%; /* Justér afstand fra toppen */
+    left: 15%; /* Justér afstand fra venstre */
+    width: 200px; /* Bredde på tekstboksen */
+    padding: 20px; /* Indre afstand for teksten */
+    background-color: transparent; /* Semi-transparent baggrund */
+    border-radius: 10px; /* Afrundede hjørner */
+}
+
+.tekst_container_11 {
+    position: absolute; /* Gør det muligt at placere boksen præcist */
+    top: 2%; /* Justér afstand fra toppen */
+    right: 20%; /* Justér afstand fra venstre */
+    width: 420px; /* Bredde på tekstboksen */
+    padding: 20px; /* Indre afstand for teksten */
+    background-color: transparent; /* Semi-transparent baggrund */
+    border-radius: 10px; /* Afrundede hjørner */
+}
+
+.tekst_container_12 {
+    position: absolute; /* Gør det muligt at placere boksen præcist */
+    bottom: 10%; /* Justér afstand fra toppen */
+    right: 38%; /* Justér afstand fra venstre */
+    width: 210px; /* Bredde på tekstboksen */
+    padding: 20px; /* Indre afstand for teksten */
+    background-color: transparent; /* Semi-transparent baggrund */
+    border-radius: 10px; /* Afrundede hjørner */
+}
+
+
+.svampespil {
+    width: 200px;
+    position: absolute;
+    left: 15%;
+    top: 45%;
+}
+
+.bolde {
+    width: 200px;
+    position: absolute;
+    left: 30%;
+    top: 45%;
+}
+.skitse {
+    width: 150px;
+    position: absolute;
+    left: 35%;
+    bottom: 5%;
+}
+
+.spilelementer {
+    width: 150px;
+    position: absolute;
+    left: 17%;
+    bottom: 2%;
+}
+
+.aktivitet {
+    width: 200px;
+    position: absolute;
+    right: 40%;
+    top: 25%;
+
+}
+
+.statemachine {
+    width: 300px;
+    position: absolute;
+    right: 17%;
+    top: 25%;
+}
+
+.lillemand {
+    width: 150px;
+    position: absolute;
+    left: 30%;
+    bottom: 2%;
+}
+
+.spil {
+    width: 300px;
+    position: absolute;
+    right: 15%;
+    bottom: 20%;
+}
+
+
+
+
+/* 
+
+
+
 
 
 .side-1 {
