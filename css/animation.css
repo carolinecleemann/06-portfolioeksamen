@@ -1,0 +1,189 @@
+.baggrund_2 {
+    background-image: url(/billeder/folder0.png); /* Korrekt sti til billedet */
+    background-size: cover; /* Sørger for, at billedet tilpasses uden at blive beskåret */
+    background-position: center; /* Centrerer billedet både vandret og lodret */
+    background-repeat: no-repeat; /* Forhindrer gentagelse af billedet */
+    width: 100%; /* Justér bredden */
+    height: 100vh; /* Gør containeren høj nok til at fylde hele skærmen */
+    position: relative;
+    
+    @media (max-width:900px) {
+        background-image: url(/billeder/folder_02.png);
+        position: center;
+        width: 100%;
+        height: 100vh;
+        top:15%;
+        left: 0%;
+        
+    }
+}
+
+.baggrund_2 p {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.tekst_container_9 {
+    position: absolute; /* Gør det muligt at placere boksen præcist */
+    top: 2%; /* Justér afstand fra toppen */
+    left: 14%; /* Justér afstand fra venstre */
+    width: 420px; /* Bredde på tekstboksen */
+    padding: 20px; /* Indre afstand for teksten */
+    background-color: transparent; /* Semi-transparent baggrund */
+    border-radius: 10px; /* Afrundede hjørner */
+
+    @media (max-width:900px) {
+        width: 80%;
+        position: absolute;
+        top:5%;
+        left:10%;
+        font-size: 9px;
+    }
+}
+
+.tekst_container_10 {
+    position: absolute; /* Gør det muligt at placere boksen præcist */
+    bottom: 2%; /* Justér afstand fra toppen */
+    left: 15%; /* Justér afstand fra venstre */
+    width: 220px; /* Bredde på tekstboksen */
+    padding: 20px; /* Indre afstand for teksten */
+    background-color: transparent; /* Semi-transparent baggrund */
+    border-radius: 10px; /* Afrundede hjørner */
+
+    @media (max-width:900px) {
+        width: 80%;
+        position: absolute;
+        top: 32%;
+        left:10%;
+        font-size: 9px;
+    }
+}
+
+.tekst_container_11 {
+    position: absolute; /* Gør det muligt at placere boksen præcist */
+    top: 2%; /* Justér afstand fra toppen */
+    right: 18%; /* Justér afstand fra venstre */
+    width: 420px; /* Bredde på tekstboksen */
+    padding: 20px; /* Indre afstand for teksten */
+    background-color: transparent; /* Semi-transparent baggrund */
+    border-radius: 10px; /* Afrundede hjørner */
+
+    @media (max-width:900px) {
+        width: 50%;
+        position: absolute;
+        top:45%;
+        left:40%;
+        font-size: 9px;
+    }
+}
+
+.tekst_container_12 {
+    position: absolute; /* Gør det muligt at placere boksen præcist */
+    bottom: 10%; /* Justér afstand fra toppen */
+    right: 38%; /* Justér afstand fra venstre */
+    width: 200px; /* Bredde på tekstboksen */
+    padding: 20px; /* Indre afstand for teksten */
+    background-color: transparent; /* Semi-transparent baggrund */
+    border-radius: 10px; /* Afrundede hjørner */
+
+    @media (max-width:900px) {
+        width: 70%;
+        position: absolute;
+        bottom:3%;
+        left:15%;
+        font-size: 9px;
+    }
+}
+
+
+.svampespil {
+    width: 15%;
+    position: absolute;
+    left: 16%;
+    top: 52%;
+}
+
+.bolde {
+    width: 12%;
+    position: absolute;
+    left: 32%;
+    top: 49%;
+}
+.skitse {
+    width: 10%;
+    position: absolute;
+    left: 34%;
+    bottom: 2%;
+}
+
+.spilelementer {
+    width: 150px;
+    position: absolute;
+    right: 28%;
+    bottom: 2%;
+}
+
+.aktivitet {
+    width: 10%;
+    position: absolute;
+    right: 40%;
+    top: 28%;
+
+}
+
+.statemachine {
+    width: 22%;
+    position: absolute;
+    right: 16%;
+    top: 25%;
+}
+
+.lillemand {
+    width: 150px;
+    position: absolute;
+    right: 15%;
+    bottom: 2%;
+}
+
+.spil {
+    width: 20%;
+    position: absolute;
+    right: 18%;
+    bottom: 18%;
+}
+
+br {
+    margin-bottom: 5px;
+}
+
+.projekt_container {
+    padding: 20px 40px;
+    border: 1px;
+    background-color: rgb(212,223,210);
+    text-decoration: none;
+    text-align: center; 
+    margin: 50px 500px;
+    gap: 5px;
+    
+    @media (max-width:900px) {
+        padding: 5px;
+        margin: 10px 150px;
+    }
+}
+
+.projekt_container a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color:rgb(106, 76, 76);
+
+    @media (max-width:900px) {
+        font-size: 12px;
+    }
+}
+

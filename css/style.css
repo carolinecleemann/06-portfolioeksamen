@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+}
+
+/* styling forside */
+
+body {
+    background-color: rgb(243, 243, 244);
+}
+header {
+    font-family: Helvetica, Arial, sans-serif; 
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    color:rgb(106, 76, 76);
+    padding: 40px;
+    background-color: transparent;
+
+    
+    @media (max-width:900px) {
+        margin: 20px;
+        padding: 20px;
+    }
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.burger .line {
+    width: 30px;
+    height: 4px;
+    background-color: rgb(106, 76, 76);
+}
+
+.burger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px)
+
+}
+
+.burger.active .line:nth-child(2) {
+    opacity: 0;
+
+}
+.burger.active .line:nth-child(3){ 
+    transform: rotate(-45deg) translate(5px, -5px)
+}
+
+.menulinks {
+    flex-direction: column;
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    left: 30px;
+    width: 90%;
+    background-color: rgb(243, 243, 244);
+    z-index: 1000;
+    
+}
+
+.menulinks a {
+    text-decoration: none;
+    color: rgb(106, 76, 76);
+    font-size: 30px;
+    left: 5%;
+}
+
+.menulinks li {
+    list-style: none;
+}
+
+.burger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.menulinks.active {
+    display: flex;
+}
+
+.overskrift_1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: rgb(106, 76, 76);
+    margin-top: 5px;
+
+    @media (max-width:900px) {
+        font-size: 20px;
+    }
+
+}
+
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color:rgb(106, 76, 76);
+
+    @media (max-width:900px) {
+        padding-top: 5px;
+        font-size: 10px;
+    }
+
+
+} 

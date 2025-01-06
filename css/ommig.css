@@ -1,0 +1,78 @@
+
+.pas {
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: center;  /* Centrerer horisontalt */
+    align-items: center;      /* Centrerer vertikalt */
+    margin: 60px auto;        /* Margin på 60px op og ned, og auto for at centrere horisontalt */
+  }
+
+.biografi h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(106, 76, 76);
+    
+}
+
+.biografi p {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    margin: 50px;
+}
+
+.biografi h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(106, 76, 76);
+}
+
+.uddannelse li {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    padding: 10px;
+    gap: 30px;
+}
+
+
+
+.kreativ_container {
+    padding: 20px 40px;
+    border: 1px;
+    background-color: rgb(212,223,210);
+    text-decoration: none;
+    text-align: center;
+    margin: 50px 500px;
+
+    @media (max-width:900px) {
+        padding: 5px;
+        margin: 10px;
+    }
+
+}
+
+.kreativ_container a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color:rgb(106, 76, 76);
+
+    @media (max-width:900px) {
+        font-size: 12px;
+    }
+
+
+
+}

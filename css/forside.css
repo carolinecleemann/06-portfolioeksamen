@@ -1,0 +1,188 @@
+*
+
+.baggrund {
+    background-image: url(/billeder/notebook1.svg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+
+    @media (max-width:900px) {
+        position: center;
+        width: 100%;
+        height: 100vh;
+        top:15%;
+        left: 0%;
+        
+    }
+}
+
+.projekter img {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+
+    @media (max-width: 900px){
+        width: 100%;
+        top: 80%;
+        right: 80%;
+    }
+
+
+}
+
+.projekter-link {
+    position: absolute;
+    top: 25%;
+    right: 15%;
+}
+
+.om-mig img {
+    width: 60%;
+    height: auto;
+    position: absolute;
+    top: 25%;
+    right: 20%;
+}
+
+.om-mig-link {
+    position: absolute;
+    top: 40%;
+    left: 27%;
+    
+}
+
+.kreativt-galleri img {
+    width: 25%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    right: 25%;
+}
+
+.galleri-link {
+    position: absolute;
+    top: 52%;
+    right: 27%;
+    
+}
+
+.projekter-link, .om-mig-link, .galleri-link {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 24px;
+    color:rgb(106, 76, 76);
+}
+
+/* Container styling */
+.billede-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem auto;
+    gap: 1rem;
+}
+
+/* Links der indeholder billeder */
+.projekter {
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 10px; /* Valgfri afrunding af hjørner */
+    transition: transform 0.3s ease; /* Glidende bevægelse */
+}
+
+/* Standard billede styling */
+.projekter img {
+    display: block;
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    @media (max-width: 900px){
+        width: 100%;
+        top: 50%;
+        right: 0%;
+    }
+
+}
+
+/* Hover-effekt: Ryk op */
+.projekter:hover img {
+    transform: translateY(-10px); /* Rykker billedet 10px opad */
+   
+}
+
+/* Klik-effekt (valgfri) */
+.projekter:active img {
+    transform: translateY(-5px); /* Rykker det mindre ned igen ved klik */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.om-mig img {
+    display: block;
+    width: 60%;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    @media (max-width: 900px){
+        width: 90%;
+        top: 75%;
+        right: 15%;
+    }
+
+}
+
+.om-mig:hover img {
+    transform: translateY(-10px); /* Rykker billedet 10px opad */
+}
+
+.om-mig:active img {
+    transform: translateY(-5px); /* Rykker det mindre ned igen ved klik */
+}
+
+.kreativt-galleri img {
+    display: block;
+    width: 20%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+
+    @media (max-width: 900px){
+        width: 40%;
+        top: 90%;
+        right: 20%;
+    }
+
+}
+
+.kreativt-galleri:hover img {
+    transform: translateY(-10px); /* Rykker billedet 10px opad */
+}
+
+.kreativt-galleri:active img {
+    display: block;
+    width: 25%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}

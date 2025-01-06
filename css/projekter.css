@@ -1,0 +1,50 @@
+
+.mapper {
+    background-image: url(/billeder/samlet.png); /* Korrekt sti til billedet */
+    background-size: contain; /* Sørger for, at billedet tilpasses uden at blive beskåret */
+    background-position: center; /* Centrerer billedet både vandret og lodret */
+    background-repeat: no-repeat; /* Forhindrer gentagelse af billedet */
+    margin: 0 auto; /* Centrerer containeren vandret */
+    width: 75%; /* Justér bredden */
+    height: 100vh; /* Gør containeren høj nok til at fylde hele skærmen */
+    position: relative;
+  }
+  
+
+.web-link, .ui-link, .animation-link, .indhold-link {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    color: rgb(106, 76, 76);
+
+
+}
+
+.web-link {
+    position: absolute;
+    left: 15%;
+    top: 12%;
+}
+
+
+.ui-link {
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
+
+
+.animation-link {
+    position: absolute;
+    left: 15%;
+    top: 30%;
+}
+
+
+.indhold-link {
+    position: absolute;
+    left: 15%;
+    top: 40%;
+}

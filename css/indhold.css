@@ -1,0 +1,91 @@
+.baggrund_2 {
+    background-image: url(/billeder/folder0.png); /* Korrekt sti til billedet */
+    background-size: cover; /* Sørger for, at billedet tilpasses uden at blive beskåret */
+    background-position: center; /* Centrerer billedet både vandret og lodret */
+    background-repeat: no-repeat; /* Forhindrer gentagelse af billedet */
+    width: 100%; /* Justér bredden */
+    height: 100vh; /* Gør containeren høj nok til at fylde hele skærmen */
+    position: relative;
+    font-size: small;
+}
+
+.tekst_container_13 {
+    position: absolute; /* Gør det muligt at placere boksen præcist */
+    top: 5%; /* Justér afstand fra toppen */
+    left: 14%; /* Justér afstand fra venstre */
+    width: 420px; /* Bredde på tekstboksen */
+    padding: 20px; /* Indre afstand for teksten */
+    background-color: transparent; /* Semi-transparent baggrund */
+    border-radius: 10px; /* Afrundede hjørner */
+}
+
+.tekst_container_14 {
+    position: absolute; /* Gør det muligt at placere boksen præcist */
+    bottom: 28%; /* Justér afstand fra toppen */
+    left: 15%; /* Justér afstand fra venstre */
+    width: 200px; /* Bredde på tekstboksen */
+    padding: 20px; /* Indre afstand for teksten */
+    background-color: transparent; /* Semi-transparent baggrund */
+    border-radius: 10px; /* Afrundede hjørner */
+}
+
+.tekst_container_15 {
+    position: absolute; /* Gør det muligt at placere boksen præcist */
+    top: 2%; /* Justér afstand fra toppen */
+    right: 20%; /* Justér afstand fra venstre */
+    width: 420px; /* Bredde på tekstboksen */
+    padding: 20px; /* Indre afstand for teksten */
+    background-color: transparent; /* Semi-transparent baggrund */
+    border-radius: 10px; /* Afrundede hjørner */
+}
+
+.tekst_container_16 {
+    position: absolute; /* Gør det muligt at placere boksen præcist */
+    bottom: 5%; /* Justér afstand fra toppen */
+    right: 33%; /* Justér afstand fra venstre */
+    width: 300px; /* Bredde på tekstboksen */
+    padding: 20px; /* Indre afstand for teksten */
+    background-color: transparent; /* Semi-transparent baggrund */
+    border-radius: 10px; /* Afrundede hjørner */
+}
+
+.video {
+    width: 200px;
+    position: absolute;
+    left: 15%;
+    top: 27%; 
+}
+
+.lottie {
+    width: 200px;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+}
+
+.passionsite {
+    width: 300px;
+    position: absolute;
+    left: 17%;
+    bottom: 5%;
+}
+
+.moodboard2 {
+    width: 300px;
+    position: absolute;
+    right: 33%;
+    top: 30%;
+}
+.styletile2 {
+    width: 250px;
+    position: absolute;
+    right: 20%;
+    top: 30%;
+}
+
+.ccc {
+    width: 300px;
+    position: absolute;
+    right: 13%;
+    bottom: 15%;
+}

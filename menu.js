@@ -1,11 +1,10 @@
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const burgerMenu = document.getElementById('burgerMenu');
-  const navLinks = document.getElementById('navLinks');
+//burger menu og links hentet// 
+const burger = document.querySelector(".burger")
+const menulinks = document.querySelector (".menulinks")
 
-  burgerMenu.addEventListener('click', function() {
-    navLinks.classList.toggle('show'); // Skifter klassen "show" til/fra
-  });
-});
-
-</script>
+//når man klikker på burgermenuen// 
+burger.addEventListener("click", () => {
+    burger.classList.toggle("active"); 
+    menulinks.classList.toggle("active");
+}
+)
