@@ -1,29 +1,37 @@
 .baggrund_2 {
-    background-image: url(/billeder/folder0.png); /* Korrekt sti til billedet */
-    background-size: cover; /* Sørger for, at billedet tilpasses uden at blive beskåret */
-    background-position: center; /* Centrerer billedet både vandret og lodret */
-    background-repeat: no-repeat; /* Forhindrer gentagelse af billedet */
-    width: 100%; /* Justér bredden */
-    height: 100vh; /* Gør containeren høj nok til at fylde hele skærmen */
+    background-image: url(/billeder/folder0.svg); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    height: 100vh; 
     position: relative;
     font-size: small;
 }
 
+.baggrund_2 p {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px;
+}
+
 .tekst_container_13 {
-    position: absolute; /* Gør det muligt at placere boksen præcist */
-    top: 5%; /* Justér afstand fra toppen */
-    left: 14%; /* Justér afstand fra venstre */
-    width: 420px; /* Bredde på tekstboksen */
-    padding: 20px; /* Indre afstand for teksten */
-    background-color: transparent; /* Semi-transparent baggrund */
-    border-radius: 10px; /* Afrundede hjørner */
+    position: absolute; 
+    top: 2%; 
+    left: 14%; 
+    width: 420px;
+    padding: 20px; 
+    background-color: transparent; 
+    border-radius: 10px; 
 }
 
 .tekst_container_14 {
     position: absolute; /* Gør det muligt at placere boksen præcist */
-    bottom: 28%; /* Justér afstand fra toppen */
+    bottom: 20%; /* Justér afstand fra toppen */
     left: 15%; /* Justér afstand fra venstre */
-    width: 200px; /* Bredde på tekstboksen */
+    width: 350px; /* Bredde på tekstboksen */
     padding: 20px; /* Indre afstand for teksten */
     background-color: transparent; /* Semi-transparent baggrund */
     border-radius: 10px; /* Afrundede hjørner */
@@ -57,16 +65,16 @@
 }
 
 .lottie {
-    width: 200px;
+    width: 100px;
     position: absolute;
     left: 30%;
-    top: 30%;
+    top: 20%;
 }
 
 .passionsite {
-    width: 300px;
+    width: 200px;
     position: absolute;
-    left: 17%;
+    left: 30%;
     bottom: 5%;
 }
 

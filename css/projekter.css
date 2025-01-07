@@ -1,50 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+}
 
 .mapper {
-    background-image: url(/billeder/samlet.png); /* Korrekt sti til billedet */
-    background-size: contain; /* Sørger for, at billedet tilpasses uden at blive beskåret */
-    background-position: center; /* Centrerer billedet både vandret og lodret */
-    background-repeat: no-repeat; /* Forhindrer gentagelse af billedet */
-    margin: 0 auto; /* Centrerer containeren vandret */
-    width: 75%; /* Justér bredden */
-    height: 100vh; /* Gør containeren høj nok til at fylde hele skærmen */
-    position: relative;
-  }
-  
-
-.web-link, .ui-link, .animation-link, .indhold-link {
-    font-family: "Montserrat", serif;
-    font-optical-sizing: auto;
-    font-weight: normal;
-    font-style: normal;
-    text-decoration: none;
-    color: rgb(106, 76, 76);
-
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px auto;
 }
 
 .web-link {
+    width: 80%;
+    height: 100vh;
     position: absolute;
-    left: 15%;
-    top: 12%;
+    left: 10%;
+    top: 10%;
 }
 
+.web-link img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover-effekt: Ryk op */
+.web-link:hover img {
+    transform: translateY(-10px); /* Rykker billedet 10px opad */
+   
+}
+
+/* Klik-effekt (valgfri) */
+.web-link:active img {
+    transform: translateY(-5px); /* Rykker det mindre ned igen ved klik */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
 .ui-link {
+    width: 80%;
+    height:100%;
     position: absolute;
-    left: 15%;
-    top: 20%;
+    left: 10%;
+    top: 25%;
+}
+
+.ui-link img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover-effekt: Ryk op */
+.ui-link:hover img {
+    transform: translateY(-10px); /* Rykker billedet 10px opad */
+   
+}
+
+/* Klik-effekt (valgfri) */
+.ui-link:active img {
+    transform: translateY(-5px); /* Rykker det mindre ned igen ved klik */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 
 .animation-link {
+    width: 80%;
     position: absolute;
-    left: 15%;
-    top: 30%;
+    left: 10%;
+    top: 40%;
 }
 
+.animation-link img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover-effekt: Ryk op */
+.animation-link:hover img {
+    transform: translateY(-10px); /* Rykker billedet 10px opad */
+   
+}
+
+/* Klik-effekt (valgfri) */
+.animation-link:active img {
+    transform: translateY(-5px); /* Rykker det mindre ned igen ved klik */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
 .indhold-link {
+    width: 80%;
     position: absolute;
-    left: 15%;
-    top: 40%;
+    left: 10%;
+    top: 55%;
+}
+
+.indhold-link img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover-effekt: Ryk op */
+.indhold-link:hover img {
+    transform: translateY(-10px); /* Rykker billedet 10px opad */
+   
+}
+
+/* Klik-effekt (valgfri) */
+.indhold-link:active img {
+    transform: translateY(-5px); /* Rykker det mindre ned igen ved klik */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }

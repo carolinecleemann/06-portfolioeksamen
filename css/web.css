@@ -225,7 +225,7 @@
 }
 
 .baggrund_2 {
-    background-image: url(/billeder/folder0.png); /* Korrekt sti til billedet */
+    background-image: url(/billeder/folder0.svg); /* Korrekt sti til billedet */
     background-size: cover; /* Sørger for, at billedet tilpasses uden at blive beskåret */
     background-position: center; /* Centrerer billedet både vandret og lodret */
     background-repeat: no-repeat; /* Forhindrer gentagelse af billedet */
