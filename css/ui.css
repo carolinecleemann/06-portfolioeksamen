@@ -1,3 +1,7 @@
+main {
+    min-height: 145vh;
+}
+
 .baggrund_2 p {
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
@@ -7,23 +11,27 @@
     color: rgb(106, 76, 76);
     gap: 5px;
 
+
+    @media (max-width:900px) {
+        font-size: 9px;
+    }
 }
 
 
 .tekst_container_5 {
     position: absolute; /* Gør det muligt at placere boksen præcist */
-    top: 2%; /* Justér afstand fra toppen */
-    left: 13%; /* Justér afstand fra venstre */
+    top: 10%; /* Justér afstand fra toppen */
+    left: 15%; /* Justér afstand fra venstre */
     width: 400px; /* Bredde på tekstboksen */
     padding: 20px; /* Indre afstand for teksten */
     background-color: transparent; /* Semi-transparent baggrund */
     border-radius: 10px; /* Afrundede hjørner */
 
     @media (max-width:900px) {
-        width: 80%;
+        width: 70%;
         position: absolute;
-        top:5%;
-        left:10%;
+        top:2%;
+        left:15%;
         font-size: 9px;
     }
 }
@@ -38,7 +46,7 @@
     @media (max-width:900px) {
         width: 25%;
         position: absolute;
-        top:23%;
+        top:18%;
         left:20%;
         font-size: 9px;
     }
@@ -53,14 +61,14 @@
     @media (max-width:900px) {
         width: 25%;
         position: absolute;
-        top:22%;
+        top:18%;
         left:55%;
         font-size: 9px;
     }
 }
 .tekst_container_6 {
     position: absolute; /* Gør det muligt at placere boksen præcist */
-    bottom: 0%; /* Justér afstand fra toppen */
+    bottom: 10%; /* Justér afstand fra toppen */
     left: 15%; /* Justér afstand fra venstre */
     width: 350px; /* Bredde på tekstboksen */
     padding: 20px; /* Indre afstand for teksten */
@@ -68,45 +76,45 @@
     border-radius: 10px; /* Afrundede hjørner */
 
     @media (max-width:900px) {
-        width: 80%;
+        width: 70%;
         position: absolute;
-        top: 32%;
-        left:10%;
+        top: 25%;
+        left:15%;
         font-size: 9px;
     }
 }
 
 .tekst_container_7 {
     position: absolute; /* Gør det muligt at placere boksen præcist */
-    top: 0%; /* Justér afstand fra toppen */
-    right: 18%; /* Justér afstand fra venstre */
-    width: 440px; /* Bredde på tekstboksen */
+    top: 10%; /* Justér afstand fra toppen */
+    right: 15%; /* Justér afstand fra venstre */
+    width: 490px; /* Bredde på tekstboksen */
     padding: 20px; /* Indre afstand for teksten */
     background-color: transparent; /* Semi-transparent baggrund */
     border-radius: 10px; /* Afrundede hjørner */
 
     @media (max-width:900px) {
-        width: 50%;
+        width: 40%;
         position: absolute;
-        top:45%;
-        left:40%;
+        top:37%;
+        left:15%;
         font-size: 9px;
     }
 }
 .tekst_container_8 {
     position: absolute; /* Gør det muligt at placere boksen præcist */
-    bottom: 5%;
-    right: 20%; /* Justér afstand fra venstre */
+    bottom: 15%;
+    right: 40%; /* Justér afstand fra venstre */
     width: 200px; /* Bredde på tekstboksen */
     padding: 20px; /* Indre afstand for teksten */
     background-color: transparent; /* Semi-transparent baggrund */
     border-radius: 10px; /* Afrundede hjørner */
 
     @media (max-width:900px) {
-        width: 70%;
+        width: 35%;
         position: absolute;
-        bottom:3%;
-        left:15%;
+        bottom:20%;
+        left:50%;
         font-size: 9px;
     }
 }
@@ -115,13 +123,13 @@
     height: auto;
     position: absolute;
     right: 20%;
-    top: 28%;
+    top: 32%;
 
     @media (max-width:900px) {
         width: 25%;
         position: absolute;
-        top:50%;
-        left:15%;
+        top:45%;
+        left:60%;
         font-size: 9px;
     }
 }
@@ -130,29 +138,29 @@
     width: 20%;
     height: auto;
     position: absolute;
-    right: 33%;
+    right: 32%;
     bottom: 45%;
 
     @media (max-width:900px) {
         width: 25%;
         position: absolute;
-        bottom:18%;
-        left:30%;
+        bottom:28%;
+        left:20%;
         font-size: 9px;
     }
 }
 .design2 {
-    width: 18%;
+    width: 25%;
     height: auto;
     position: absolute;
-    right: 38%;
-    bottom: 15%;
+    right: 15%;
+    bottom: 20%;
 
     @media (max-width:900px) {
-        width: 35%;
+        width: 30%;
         position: absolute;
-        bottom:15%;
-        right:2%;
+        bottom:20%;
+        left:20%;
         font-size: 9px;
     }
 }
@@ -221,16 +229,16 @@
     background-position: center; /* Centrerer billedet både vandret og lodret */
     background-repeat: no-repeat; /* Forhindrer gentagelse af billedet */
     width: 100%; /* Justér bredden */
-    height: 100vh; /* Gør containeren høj nok til at fylde hele skærmen */
+    height: 130vh; /* Gør containeren høj nok til at fylde hele skærmen */
     position: relative;
     font-size: small;
 
     @media (max-width:900px) {
-        background-image: url(/billeder/folder_02.png);
+        background-image: url(/billeder/folder_021.svg);
         position: center;
         width: 100%;
-        height: 100vh;
-        top:15%;
+        height: 130vh;
+        top:20%;
         left: 0%;
         
     }

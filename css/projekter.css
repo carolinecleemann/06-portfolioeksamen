@@ -4,6 +4,10 @@
     border-radius: 0;
 }
 
+main {
+    min-height: 145vh;
+}
+
 .mapper {
     display: flex;
     align-items: center;
@@ -77,7 +81,7 @@
    
 }
 
-/* Klik-effekt (valgfri) */
+/* Klik-effekt*/
 .animation-link:active img {
     transform: translateY(-5px); /* Rykker det mindre ned igen ved klik */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);

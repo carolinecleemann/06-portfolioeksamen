@@ -1,3 +1,7 @@
+main {
+    min-height: 145vh;
+}
+
 .baggrund_2 p {
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
@@ -27,48 +31,48 @@
 
 .tekst_container_1 {
     position: absolute; /* Gør det muligt at placere boksen præcist */
-    top: 7%; /* Justér afstand fra toppen */
-    left: 13%; /* Justér afstand fra venstre */
-    width: 420px; /* Bredde på tekstboksen */
+    top: 12%; /* Justér afstand fra toppen */
+    left: 10%; /* Justér afstand fra venstre */
+    width: 450px; /* Bredde på tekstboksen */
     padding: 20px; /* Indre afstand for teksten */
     background-color: transparent; /* Semi-transparent baggrund */
     border-radius: 10px; /* Afrundede hjørner */
 
     @media (max-width:900px) {
-        width: 80%;
+        width: 70%;
         position: absolute;
-        bottom: 50px;
-        left:10%;
+        top:2%;
+        left:15%;
         font-size: 9px;
     }
     
 }
 .forklaring1 {
-    width: 12%;
-    height: auto;
-    position: absolute;
-    left: 15%;
-    bottom: 43%;
-
-    @media (max-width:900px) {
-        width: 20%;
-        position: absolute;
-        top:25%;
-        left:30%;
-        
-    }
-}
-.forklaring2 {
     width: 15%;
     height: auto;
     position: absolute;
-    left: 28%;
+    left: 12%;
     bottom: 45%;
 
     @media (max-width:900px) {
         width: 20%;
         position: absolute;
-        top:25%;
+        top:18%;
+        left:30%;
+        
+    }
+}
+.forklaring2 {
+    width: 18%;
+    height: auto;
+    position: absolute;
+    left: 25%;
+    bottom: 48%;
+
+    @media (max-width:900px) {
+        width: 20%;
+        position: absolute;
+        top:20%;
         left:55%;
         
     }
@@ -76,51 +80,50 @@
 
 .tekst_container_2 {
     position: absolute; /* Gør det muligt at placere boksen præcist */
-    bottom: 2%; /* Justér afstand fra toppen */
-    left: 15%; /* Justér afstand fra venstre */
+    bottom: 15%; /* Justér afstand fra toppen */
+    left: 12%; /* Justér afstand fra venstre */
     width: 350px; /* Bredde på tekstboksen */
     padding: 20px; /* Indre afstand for teksten */
     background-color: transparent; /* Semi-transparent baggrund */
     border-radius: 10px; /* Afrundede hjørner */
-    line-height: normal;
 
     @media (max-width:900px) {
-        width: 80%;
+        width: 70%;
         position: absolute;
-        top: 32%;
-        left:10%;
+        top: 23%;
+        left:17%;
         font-size: 9px;
     }
 }
 
 .tekst_container_3 {
     position: absolute; /* Gør det muligt at placere boksen præcist */
-    top: 5%; /* Justér afstand fra toppen */
-    right: 20%; /* Justér afstand fra venstre */
-    width: 420px; /* Bredde på tekstboksen */
+    top: 10%; /* Justér afstand fra toppen */
+    right: 15%; /* Justér afstand fra venstre */
+    width: 490px; /* Bredde på tekstboksen */
     padding: 20px; /* Indre afstand for teksten */
     background-color: transparent; /* Semi-transparent baggrund */
     border-radius: 10px; /* Afrundede hjørner */
 
     @media (max-width:900px) {
-        width: 80%;
+        width: 70%;
         position: absolute;
-        top:62%;
-        left:10%;
+        top:40%;
+        left:15%;
         font-size: 9px;
     }
 }
 .forklaring3 {
-    width: 18%;
+    width: 20%;
     height: auto;
     position: absolute;
-    right: 16%;
-    top: 30%;
+    right: 10%;
+    top: 20%;
 
     @media (max-width:900px) {
         width: 40%;
         position: absolute;
-        top:56%;
+        top:50%;
         left:55%;
         
     }
@@ -129,13 +132,13 @@
     width: 20%;
     height: auto;
     position: absolute;
-    right: 13%;
-    bottom: 30%;
+    right: 15%;
+    top: 30%;
 
     @media (max-width:900px) {
-        width: 18%;
+        width: 20%;
         position: absolute;
-        top:43%;
+        top:52%;
         left:55%;
         
     }
@@ -145,57 +148,56 @@
     height: auto;
     position: absolute;
     right: 35%;
-    top: 30%;
+    top: 28%;
 
     @media (max-width:900px) {
         width: 30%;
         position: absolute;
-        top:55%;
+        top:52%;
         left:20%;
         
     }
 }
 .tekst_container_4 {
     position: absolute; /* Gør det muligt at placere boksen præcist */
-    bottom: 10%; /* Justér afstand fra toppen */
-    right: 32%; /* Justér afstand fra venstre */
-    width: 280px; /* Bredde på tekstboksen */
+    bottom: 35%;
+    right: 15%; /* Justér afstand fra venstre */
+    width: 520px; /* Bredde på tekstboksen */
     padding: 20px; /* Indre afstand for teksten */
     background-color: transparent; /* Semi-transparent baggrund */
     border-radius: 10px; /* Afrundede hjørner */
 
     @media (max-width:900px) {
-        width: 60%;
+        width: 45%;
         position: absolute;
-        bottom:5%;
-        left:10%;
+        bottom:20%;
+        left:15%;
         font-size: 9px;
     }
 }
 .forklaring7 {
-    width: 20%;
+    width: 30%;
     height: auto;
     position: absolute;
-    right: 13%;
-    bottom: 10%;
+    right: 20%;
+    bottom: 15%;
 
     @media (max-width:900px) {
         width: 25%;
         position: absolute;
-        bottom:10%;
-        right:2%;
+        bottom:25%;
+        right:12%;
         font-size: 9px;
     }
 }
 
 .projekt_container {
-    padding: 20px 40px;
+    padding: 10px;
     border: 1px;
     background-color: rgb(212,223,210);
     text-decoration: none;
     text-align: center; 
     margin: 50px 500px;
-    gap: 5px;
     
     @media (max-width:900px) {
         padding: 5px;
@@ -230,18 +232,16 @@
     background-position: center; /* Centrerer billedet både vandret og lodret */
     background-repeat: no-repeat; /* Forhindrer gentagelse af billedet */
     width: 100%; /* Justér bredden */
-    height: 100vh; /* Gør containeren høj nok til at fylde hele skærmen */
+    height: 130vh; /* Gør containeren høj nok til at fylde hele skærmen */
     position: relative;
     font-size: small;
-    padding-top: 30px;
-    padding-bottom: 30px;
 
     @media (max-width:900px) {
-        background-image: url(/billeder/folder_02.png);
+        background-image: url(/billeder/folder_021.svg);
         position: center;
         width: 100%;
-        height: 100vh;
-        top:15%;
+        height: 130vh;
+        top:20%;
         left: 0%;
         
     }
