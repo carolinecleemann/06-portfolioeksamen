@@ -28,7 +28,7 @@ main {
     font-optical-sizing: auto;
     font-weight: normal;
     font-style: normal;
-    font-size: 12px;
+    font-size: 14px;
 
     @media (max-width:900px) {
         font-size: 9px;
@@ -37,9 +37,9 @@ main {
 
 .tekst_container_13 {
     position: absolute; 
-    top: 10%; 
-    left: 14%; 
-    width: 420px;
+    top: 12%; 
+    left: 10%; 
+    width: 450px;
     padding: 20px; 
     background-color: transparent; 
     border-radius: 10px; 
@@ -56,8 +56,8 @@ main {
 .tekst_container_14 {
     position: absolute; /* Gør det muligt at placere boksen præcist */
     bottom: 30%; /* Justér afstand fra toppen */
-    left: 15%; /* Justér afstand fra venstre */
-    width: 350px; /* Bredde på tekstboksen */
+    left: 12%; /* Justér afstand fra venstre */
+    width: 440px; /* Bredde på tekstboksen */
     padding: 20px; /* Indre afstand for teksten */
     background-color: transparent; /* Semi-transparent baggrund */
     border-radius: 10px; /* Afrundede hjørner */
@@ -74,8 +74,8 @@ main {
 .tekst_container_15 {
     position: absolute; /* Gør det muligt at placere boksen præcist */
     top: 10%; /* Justér afstand fra toppen */
-    right: 20%; /* Justér afstand fra venstre */
-    width: 450px; /* Bredde på tekstboksen */
+    right: 15%; /* Justér afstand fra venstre */
+    width: 500px; /* Bredde på tekstboksen */
     padding: 20px; /* Indre afstand for teksten */
     background-color: transparent; /* Semi-transparent baggrund */
     border-radius: 10px; /* Afrundede hjørner */
@@ -91,9 +91,9 @@ main {
 
 .tekst_container_16 {
     position: absolute; /* Gør det muligt at placere boksen præcist */
-    bottom: 15%; /* Justér afstand fra toppen */
-    right: 35%; /* Justér afstand fra venstre */
-    width: 280px; /* Bredde på tekstboksen */
+    bottom: 12%; /* Justér afstand fra toppen */
+    right: 20%; /* Justér afstand fra venstre */
+    width: 500px; /* Bredde på tekstboksen */
     padding: 20px; /* Indre afstand for teksten */
     background-color: transparent; /* Semi-transparent baggrund */
     border-radius: 10px; /* Afrundede hjørner */
@@ -108,10 +108,10 @@ main {
 }
 
 .video {
-    width: 15%;
+    width: 20%;
     position: absolute;
-    left: 15%;
-    top: 30%; 
+    left: 12%;
+    top: 35%; 
 
     @media (max-width:900px) {
         width: 25%;
@@ -123,7 +123,7 @@ main {
 }
 
 .lottie {
-    width: 20%;
+    width: 100%;
     position: absolute;
     left: 20%;
     bottom: 5%;
@@ -135,10 +135,10 @@ main {
 }
 
 .passionsite {
-    width: 15%;
+    width: 20%;
     position: absolute;
     left: 23%;
-    top: 20%;
+    top: 35%;
 
     @media (max-width:900px) {
         width: 25%;
@@ -150,9 +150,9 @@ main {
 }
 
 .moodboard2 {
-    width: 15%;
+    width: 20%;
     position: absolute;
-    right: 38%;
+    right: 32%;
     top: 30%;
 
     @media (max-width:900px) {
@@ -166,8 +166,8 @@ main {
 .styletile2 {
     width: 20%;
     position: absolute;
-    right: 20%;
-    top: 30%;
+    right: 15%;
+    top: 27%;
 
     @media (max-width:900px) {
         width: 35%;
@@ -181,8 +181,8 @@ main {
 .ccc {
     width: 20%;
     position: absolute;
-    right: 15%;
-    bottom: 20%;
+    right: 25%;
+    bottom: 35%;
 
     @media (max-width:900px) {
         width: 25%;

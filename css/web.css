@@ -30,13 +30,13 @@ main {
 
 
 .tekst_container_1 {
-    position: absolute; /* Gør det muligt at placere boksen præcist */
-    top: 12%; /* Justér afstand fra toppen */
-    left: 10%; /* Justér afstand fra venstre */
-    width: 450px; /* Bredde på tekstboksen */
-    padding: 20px; /* Indre afstand for teksten */
-    background-color: transparent; /* Semi-transparent baggrund */
-    border-radius: 10px; /* Afrundede hjørner */
+    position: absolute; 
+    top: 12%; 
+    left: 10%; 
+    width: 450px; 
+    padding: 20px; 
+    background-color: transparent; 
+    border-radius: 10px; 
 
     @media (max-width:900px) {
         width: 70%;
@@ -79,14 +79,13 @@ main {
 }
 
 .tekst_container_2 {
-    position: absolute; /* Gør det muligt at placere boksen præcist */
-    bottom: 15%; /* Justér afstand fra toppen */
-    left: 12%; /* Justér afstand fra venstre */
-    width: 350px; /* Bredde på tekstboksen */
-    padding: 20px; /* Indre afstand for teksten */
-    background-color: transparent; /* Semi-transparent baggrund */
-    border-radius: 10px; /* Afrundede hjørner */
-
+    position: absolute; 
+    bottom: 15%; 
+    left: 12%; 
+    width: 350px; 
+    padding: 20px; 
+    background-color: transparent; 
+    border-radius: 10px; 
     @media (max-width:900px) {
         width: 70%;
         position: absolute;
@@ -97,13 +96,13 @@ main {
 }
 
 .tekst_container_3 {
-    position: absolute; /* Gør det muligt at placere boksen præcist */
-    top: 10%; /* Justér afstand fra toppen */
-    right: 15%; /* Justér afstand fra venstre */
-    width: 490px; /* Bredde på tekstboksen */
-    padding: 20px; /* Indre afstand for teksten */
-    background-color: transparent; /* Semi-transparent baggrund */
-    border-radius: 10px; /* Afrundede hjørner */
+    position: absolute; 
+    top: 10%; 
+    right: 15%; 
+    width: 490px; 
+    padding: 20px; 
+    background-color: transparent; 
+    border-radius: 10px; 
 
     @media (max-width:900px) {
         width: 70%;
@@ -159,13 +158,13 @@ main {
     }
 }
 .tekst_container_4 {
-    position: absolute; /* Gør det muligt at placere boksen præcist */
+    position: absolute; 
     bottom: 35%;
-    right: 15%; /* Justér afstand fra venstre */
-    width: 520px; /* Bredde på tekstboksen */
-    padding: 20px; /* Indre afstand for teksten */
-    background-color: transparent; /* Semi-transparent baggrund */
-    border-radius: 10px; /* Afrundede hjørner */
+    right: 15%; 
+    width: 520px; 
+    padding: 20px; 
+    background-color: transparent; 
+    border-radius: 10px; 
 
     @media (max-width:900px) {
         width: 45%;
@@ -223,16 +222,16 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px; /* Afstand mellem sider */
+    gap: 20px; 
 }
 
 .baggrund_2 {
-    background-image: url(/billeder/folder0.svg); /* Korrekt sti til billedet */
-    background-size: cover; /* Sørger for, at billedet tilpasses uden at blive beskåret */
-    background-position: center; /* Centrerer billedet både vandret og lodret */
-    background-repeat: no-repeat; /* Forhindrer gentagelse af billedet */
-    width: 100%; /* Justér bredden */
-    height: 130vh; /* Gør containeren høj nok til at fylde hele skærmen */
+    background-image: url(/billeder/folder0.svg); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    height: 130vh; 
     position: relative;
     font-size: small;
 

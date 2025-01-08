@@ -4,7 +4,7 @@
 }
 .baggrund {
     background-image: url(/billeder/notebook1.svg);
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     position: relative;
     width: 100%;
@@ -66,7 +66,7 @@
     color:rgb(106, 76, 76);
 }
 
-/* Container styling */
+
 .billede-container {
     display: flex;
     justify-content: space-around;
@@ -75,21 +75,21 @@
     gap: 1rem;
 }
 
-/* Links der indeholder billeder */
+
 .projekter {
     display: inline-block;
     overflow: hidden;
-    border-radius: 10px; /* Valgfri afrunding af hjørner */
-    transition: transform 0.3s ease; /* Glidende bevægelse */
+    border-radius: 10px; 
+    transition: transform 0.3s ease; 
 }
 
-/* Standard billede styling */
+
 .projekter img {
     display: block;
     width: 50%;
     height: auto;
     position: absolute;
-    top: 12%;
+    top: 15%;
     right: 5%;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
@@ -101,15 +101,15 @@
 
 }
 
-/* Hover-effekt: Ryk op */
+
 .projekter:hover img {
-    transform: translateY(-10px); /* Rykker billedet 10px opad */
+    transform: translateY(-10px); 
    
 }
 
-/* Klik-effekt (valgfri) */
+
 .projekter:active img {
-    transform: translateY(-5px); /* Rykker det mindre ned igen ved klik */
+    transform: translateY(-5px); 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -118,7 +118,7 @@
     width: 60%;
     height: auto;
     position: absolute;
-    top: 30%;
+    top: 35%;
     right: 20%;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
@@ -131,11 +131,11 @@
 }
 
 .om-mig:hover img {
-    transform: translateY(-10px); /* Rykker billedet 10px opad */
+    transform: translateY(-10px); 
 }
 
 .om-mig:active img {
-    transform: translateY(-5px); /* Rykker det mindre ned igen ved klik */
+    transform: translateY(-5px); 
 }
 
 .kreativt-galleri img {

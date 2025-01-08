@@ -1,18 +1,22 @@
-* {
-    margin: 0;
-    padding: 0;
-    border-radius: 0;
-}
 
 main {
-    min-height: 145vh;
+    min-height: 120vh;
+    margin: 0;
+    padding: 0;
+
+    @media (max-width:900px) {
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+    }
 }
 
 .mapper {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 60px auto;
+    margin: 10px auto;
+ 
 }
 
 .web-link {
@@ -20,22 +24,22 @@ main {
     height: 100vh;
     position: absolute;
     left: 10%;
-    top: 10%;
+    top: 25%;
+
 }
 
 .web-link img {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Hover-effekt: Ryk op */
+
 .web-link:hover img {
-    transform: translateY(-10px); /* Rykker billedet 10px opad */
-   
+    transform: translateY(-10px); 
 }
 
-/* Klik-effekt (valgfri) */
+
 .web-link:active img {
-    transform: translateY(-5px); /* Rykker det mindre ned igen ved klik */
+    transform: translateY(-5px); 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -44,22 +48,24 @@ main {
     height:100%;
     position: absolute;
     left: 10%;
-    top: 25%;
+    top: 35%;
+
 }
 
 .ui-link img {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+
 }
 
-/* Hover-effekt: Ryk op */
+
 .ui-link:hover img {
-    transform: translateY(-10px); /* Rykker billedet 10px opad */
+    transform: translateY(-10px); 
    
 }
 
-/* Klik-effekt (valgfri) */
+
 .ui-link:active img {
-    transform: translateY(-5px); /* Rykker det mindre ned igen ved klik */
+    transform: translateY(-5px); 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -68,22 +74,22 @@ main {
     width: 80%;
     position: absolute;
     left: 10%;
-    top: 40%;
+    top: 45%;
 }
 
 .animation-link img {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Hover-effekt: Ryk op */
+
 .animation-link:hover img {
-    transform: translateY(-10px); /* Rykker billedet 10px opad */
+    transform: translateY(-10px); 
    
 }
 
-/* Klik-effekt*/
+
 .animation-link:active img {
-    transform: translateY(-5px); /* Rykker det mindre ned igen ved klik */
+    transform: translateY(-5px); 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -98,14 +104,14 @@ main {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Hover-effekt: Ryk op */
+
 .indhold-link:hover img {
-    transform: translateY(-10px); /* Rykker billedet 10px opad */
+    transform: translateY(-10px); 
    
 }
 
-/* Klik-effekt (valgfri) */
+
 .indhold-link:active img {
-    transform: translateY(-5px); /* Rykker det mindre ned igen ved klik */
+    transform: translateY(-5px); 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
