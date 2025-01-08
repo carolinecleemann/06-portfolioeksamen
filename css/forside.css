@@ -75,6 +75,7 @@
     gap: 1rem;
 }
 
+/*styling af projekter*/
 
 .projekter {
     display: inline-block;
@@ -89,7 +90,7 @@
     width: 50%;
     height: auto;
     position: absolute;
-    top: 15%;
+    top: 2%;
     right: 5%;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
@@ -114,12 +115,14 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+/*styling af om mig*/
+
 .om-mig img {
     display: block;
     width: 60%;
     height: auto;
     position: absolute;
-    top: 35%;
+    top: 15%;
     right: 20%;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
@@ -142,12 +145,14 @@
     transform: translateY(-5px); 
 }
 
+/*styling af kreativt galleri*/
+
 .kreativt-galleri img {
     display: block;
     width: 25%;
     height: auto;
     position: absolute;
-    top: 65%;
+    top: 35%;
     right: 30%;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
@@ -163,7 +168,7 @@
 }
 
 .kreativt-galleri:hover img {
-    transform: translateY(-10px); /* Rykker billedet 10px opad */
+    transform: translateY(-10px); 
 }
 
 .kreativt-galleri:active img {
