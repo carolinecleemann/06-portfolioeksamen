@@ -13,29 +13,33 @@ main {
     height: 130vh; 
     position: relative;
     
-    @media (max-width:900px) {
-        background-image: url(/billeder/folder_021.svg);
-        position: center;
-        width: 100%;
-        height: 130vh;
-        top:20%;
-        left: 0%;
-        
+    
+}
+
+@media (max-width:900px) {
+    .baggrund_2 {
+    background-image: url(/billeder/folder_021.svg);
+    position: relative;
+    width: 100%;
+    height: 130vh;
+    top:20%;
+    left: 0%;
     }
 }
 
 .baggrund_2 p {
     font-family: "Montserrat", serif;
-    font-optical-sizing: auto;
+    
     font-weight: normal;
     font-style: normal;
     font-size: 14px;
 
-    @media (max-width:900px) {
-        font-size: 9px;
+}
+@media (max-width:900px) {
+    .baggrund_2 p{
+    font-size: 9px;
     }
 }
-
 .tekst_container_9 {
     position: absolute; 
     top: 12%; 
@@ -45,15 +49,17 @@ main {
     background-color: transparent; 
     border-radius: 10px; 
 
-    @media (max-width:900px) {
-        width: 70%;
-        position: absolute;
-        top:0%;
-        left:15%;
-        font-size: 9px;
+   
+}
+@media (max-width:900px) {
+    .tekst_container_9 {
+    width: 70%;
+    position: absolute;
+    top:0%;
+    left:15%;
+    font-size: 9px;
     }
 }
-
 .tekst_container_10 {
     position: absolute; 
     bottom: 12%; 
@@ -63,15 +69,17 @@ main {
     background-color: transparent; 
     border-radius: 10px; 
 
-    @media (max-width:900px) {
-        width: 70%;
-        position: absolute;
-        top: 30%;
-        left:15%;
-        
-    }
-}
 
+}
+@media (max-width:900px) {
+    .tekst_container_10 {
+    width: 70%;
+    position: absolute;
+    top: 30%;
+    left:15%;
+    }
+    
+}
 .tekst_container_11 {
     position: absolute; 
     top: 10%; 
@@ -81,15 +89,17 @@ main {
     background-color: transparent; 
     border-radius: 10px; 
 
-    @media (max-width:900px) {
-        width: 70%;
-        position: absolute;
-        top:50%;
-        left:15%;
-        font-size: 9px;
+   
+}
+@media (max-width:900px) {
+    .tekst_container_11 {
+    width: 70%;
+    position: absolute;
+    top:50%;
+    left:15%;
+    font-size: 9px;
     }
 }
-
 .tekst_container_12 {
     position: absolute; 
     bottom: 25%; 
@@ -98,27 +108,33 @@ main {
     padding: 20px; 
     background-color: transparent; 
     border-radius: 10px; 
-    @media (max-width:900px) {
-        width: 35%;
-        position: absolute;
-        bottom:17%;
-        left:50%;
-        font-size: 9px;
-    }
+   
 }
 
-
+@media (max-width:900px) {
+    .tekst_container_12 {
+    width: 35%;
+    position: absolute;
+    bottom:17%;
+    left:50%;
+    font-size: 9px;
+    }
+}
 .svampespil {
     width: 17%;
     position: absolute;
     left: 12%;
     top: 48%;
 
-    @media (max-width:900px) {
-        width: 25%;
-        position: absolute;
-        top:25%;
-        left:25%;
+    
+}
+
+@media (max-width:900px) {
+    .svampespil {
+    width: 25%;
+    position: absolute;
+    top:25%;
+    left:25%;
     }
 }
 
@@ -128,11 +144,14 @@ main {
     left: 30%;
     top: 47%;
 
-    @media (max-width:900px) {
-        width: 25%;
-        position: absolute;
-        top:25%;
-        left:55%;
+   
+}
+@media (max-width:900px) {
+    .bolde {
+    width: 25%;
+    position: absolute;
+    top:25%;
+    left:55%;
     }
 }
 .skitse {
@@ -141,39 +160,45 @@ main {
     left: 30%;
     bottom: 10%;
 
-    @media (max-width:900px) {
-        width: 18%;
-        position: absolute;
-        bottom:20%;
-        left:20%;
+   
+}
+@media (max-width:900px) {
+    .skitse {
+    width: 18%;
+    position: absolute;
+    bottom:20%;
+    left:20%;
     }
 }
-
 .spilelementer {
     width: 20%;
     position: absolute;
     right: 15%;
     bottom: 12%;
 
-    @media (max-width:900px) {
-        display: none;
+   
+}
+@media (max-width:900px) {
+    .spilelementer {
+    display: none;
     }
 }
-
 .aktivitet {
     width: 12%;
     position: absolute;
     right: 40%;
     top: 28%;
 
-    @media (max-width:900px) {
-        width: 20%;
-        position: absolute;
-        top:42%;
-        left:55%;
+
+}
+@media (max-width:900px) {
+    .aktivitet {
+    width: 20%;
+    position: absolute;
+    top:42%;
+    left:55%;
     }
 }
-
 .statemachine {
     width: 22%;
     position: absolute;
@@ -181,25 +206,30 @@ main {
     top: 28%;
 
 
-    @media (max-width:900px) {
-        width: 30%;
-        position: absolute;
-        top:42%;
-        left:20%;
+   
+}
+@media (max-width:900px) {
+    .statemachine {
+    width: 30%;
+    position: absolute;
+    top:42%;
+    left:20%;
     }
 }
-
 .lillemand {
     width: 10%;
     position: absolute;
     right: 37%;
     bottom: 12%;
 
-    @media (max-width:900px) {
-        width: 15%;
-        position: absolute;
-        bottom:28%;
-        left:38%;
+   
+}
+@media (max-width:900px) {
+    .lillemand {
+    width: 15%;
+    position: absolute;
+    bottom:28%;
+    left:38%;
     }
 }
 
@@ -209,11 +239,15 @@ main {
     right: 15%;
     bottom: 30%;
 
-    @media (max-width:900px) {
-        width: 20%;
-        position: absolute;
-        bottom:20%;
-        left:32%;
+   
+}
+
+@media (max-width:900px) {
+    .spil {
+    width: 20%;
+    position: absolute;
+    bottom:20%;
+    left:32%;
     }
 }
 
@@ -229,11 +263,13 @@ br {
     text-align: center; 
     margin: 50px 500px;
     
-    @media (max-width:900px) {
-        margin: 10px 150px;
+   
+}
+@media (max-width:900px) {
+    .projekt_container {
+    margin: 10px 150px;
     }
 }
-
 .projekt_container a {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
@@ -242,8 +278,11 @@ br {
     text-decoration: none;
     color:rgb(106, 76, 76);
 
-    @media (max-width:900px) {
-        font-size: 12px;
-    }
+    
 }
 
+@media (max-width:900px) {
+    .projekt_container a{
+    font-size: 12px;
+    }
+}

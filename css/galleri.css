@@ -4,7 +4,6 @@ main {
 
 .intro {
     font-family: "Montserrat", serif;
-    font-optical-sizing: auto;
     font-weight: normal;
     font-style: normal;
     font-size: 20px;
@@ -12,9 +11,12 @@ main {
     color: rgb(106, 76, 76);
     padding: 20px;
 
-    @media (max-width:900px) {
-        font-size: 12px;
-        padding: 5px;
+}
+
+@media (max-width:900px) {
+    .intro {
+    font-size: 12px;
+    padding: 5px;
     }
 }
 
@@ -28,14 +30,18 @@ main {
     margin: 20px; 
     padding: 20px; 
 
-    @media (max-width:900px) {
-        margin: 0px; 
-        padding: 0px; 
-    }
   }
+
+
+  @media (max-width:900px) {
+    .galleri_animation {
+    margin: 0px; 
+    padding: 0px; 
+    }
+}
   
   video {
-    position: center;
+    position: relative;
     width: 80%;
     height: auto;
     max-height: 100%;
@@ -43,10 +49,13 @@ main {
     margin: 20px; 
     padding: 20px; 
 
-    @media (max-width:900px) {
-        width: 100%; 
-        margin: 0px; 
-        padding: 0px; 
-    }
+   
 
-  }
+}
+  @media (max-width:900px) {
+    video {
+    width: 100%; 
+    margin: 0px; 
+    padding: 0px; 
+    }
+}

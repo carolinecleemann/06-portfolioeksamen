@@ -4,13 +4,15 @@ main {
     margin: 0;
     padding: 0;
 
-    @media (max-width:900px) {
-        height: 100vh;
-        margin: 0;
-        padding: 0;
-    }
 }
 
+@media (max-width:900px) {
+    main {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    }
+}
 .mapper {
     display: flex;
     align-items: center;

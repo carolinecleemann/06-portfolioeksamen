@@ -11,30 +11,34 @@ main {
     height: 130vh; 
     position: relative;
 
-    @media (max-width: 900px) {
-        background-image: url(/billeder/folder_021.svg);
-        position: center;
-        width: 100%;
-        height: 130vh;
-
-      }
+   
       
       
       
 }
+@media (max-width: 900px) {
+    .baggrund_2 {
+    background-image: url(/billeder/folder_021.svg);
+    position: relative;
+    width: 100%;
+    height: 130vh;
+    }
 
+  }
 .baggrund_2 p {
     font-family: "Montserrat", serif;
-    font-optical-sizing: auto;
+    
     font-weight: normal;
     font-style: normal;
     font-size: 14px;
 
-    @media (max-width:900px) {
-        font-size: 9px;
+    
+}
+@media (max-width:900px) {
+    .baggrund_2 p{
+    font-size: 9px;
     }
 }
-
 .tekst_container_13 {
     position: absolute; 
     top: 12%; 
@@ -44,123 +48,139 @@ main {
     background-color: transparent; 
     border-radius: 10px; 
 
-    @media (max-width:900px) {
-        width: 70%;
-        position: absolute;
-        top:0%;
-        left:15%;
-        font-size: 8px;
-    }
+    
 }
 
+@media (max-width:900px) {
+    .tekst_container_13 {
+    width: 70%;
+    position: absolute;
+    top:0%;
+    left:15%;
+    font-size: 8px;
+    }
+}
 .tekst_container_14 {
-    position: absolute; /* Gør det muligt at placere boksen præcist */
-    bottom: 30%; /* Justér afstand fra toppen */
-    left: 12%; /* Justér afstand fra venstre */
-    width: 440px; /* Bredde på tekstboksen */
-    padding: 20px; /* Indre afstand for teksten */
-    background-color: transparent; /* Semi-transparent baggrund */
-    border-radius: 10px; /* Afrundede hjørner */
+    position: absolute; 
+    left: 12%; 
+    width: 440px; 
+    padding: 20px; 
+    background-color: transparent; 
+    border-radius: 10px; 
 
-    @media (max-width:900px) {
-        width: 70%;
-        position: absolute;
-        top: 20%;
-        left:15%;
-        font-size: 8px;
+    
+}
+@media (max-width:900px) {
+    .tekst_container_14 {
+    width: 70%;
+    position: absolute;
+    top: 20%;
+    left:15%;
+    font-size: 8px;
     }
 }
-
 .tekst_container_15 {
-    position: absolute; /* Gør det muligt at placere boksen præcist */
-    top: 10%; /* Justér afstand fra toppen */
-    right: 15%; /* Justér afstand fra venstre */
-    width: 500px; /* Bredde på tekstboksen */
-    padding: 20px; /* Indre afstand for teksten */
-    background-color: transparent; /* Semi-transparent baggrund */
-    border-radius: 10px; /* Afrundede hjørner */
+    position: absolute; 
+    top: 10%; 
+    right: 15%; 
+    width: 500px; 
+    padding: 20px; 
+    background-color: transparent; 
+    border-radius: 10px; 
 
-    @media (max-width:900px) {
-        width: 70%;
-        position: absolute;
-        top:45%;
-        left:15%;
-        font-size: 8px;
+}
+@media (max-width:900px) {
+    .tekst_container_15 {
+    width: 70%;
+    position: absolute;
+    top:45%;
+    left:15%;
+    font-size: 8px;
     }
 }
-
 .tekst_container_16 {
-    position: absolute; /* Gør det muligt at placere boksen præcist */
-    bottom: 12%; /* Justér afstand fra toppen */
-    right: 20%; /* Justér afstand fra venstre */
-    width: 500px; /* Bredde på tekstboksen */
-    padding: 20px; /* Indre afstand for teksten */
-    background-color: transparent; /* Semi-transparent baggrund */
-    border-radius: 10px; /* Afrundede hjørner */
+    position: absolute; 
+    bottom: 12%; 
+    right: 20%; 
+    width: 500px; 
+    padding: 20px; 
+    background-color: transparent; 
+    border-radius: 10px; 
 
-    @media (max-width:900px) {
-        width: 50%;
-        position: absolute;
-        bottom: 18%;
-        left:15%;
-        font-size: 8px;
+   
+}
+@media (max-width:900px) {
+    .tekst_container_16 {
+    width: 50%;
+    position: absolute;
+    bottom: 18%;
+    left:15%;
+    font-size: 8px;
     }
 }
-
 .video {
     width: 20%;
     position: absolute;
     left: 12%;
     top: 35%; 
 
-    @media (max-width:900px) {
-        width: 25%;
-        position: absolute;
-        top:15%;
-        left:20%;
-        font-size: 9px;
+   
+}
+@media (max-width:900px) {
+    .video {
+    width: 25%;
+    position: absolute;
+    top:15%;
+    left:20%;
+    font-size: 9px;
     }
 }
-
 .lottie {
     width: 100%;
     position: absolute;
     left: 20%;
     bottom: 5%;
 
-    @media (max-width:900px) {
-        display: none;
-    }
+   
 
 }
-
+@media (max-width:900px) {
+    .lottie {
+    display: none;
+    }
+}
 .passionsite {
     width: 20%;
     position: absolute;
     left: 23%;
     top: 35%;
 
-    @media (max-width:900px) {
-        width: 25%;
-        position: absolute;
-        top:15%;
-        left:55%;
-        font-size: 9px;
+   
+}
+@media (max-width:900px) {
+    .passionsite{
+    width: 25%;
+    position: absolute;
+    top:15%;
+    left:55%;
+    font-size: 9px;
     }
 }
-
 .moodboard2 {
     width: 20%;
     position: absolute;
     right: 32%;
     top: 30%;
 
-    @media (max-width:900px) {
-        width: 30%;
-        position: absolute;
-        top:35%;
-        left:20%;
-        font-size: 9px;
+    
+}
+@media (max-width:900px) {
+    .moodboard2 {
+    width: 30%;
+    position: absolute;
+    top:35%;
+    left:20%;
+    font-size: 9px;
     }
 }
 .styletile2 {
@@ -169,30 +189,34 @@ main {
     right: 15%;
     top: 27%;
 
-    @media (max-width:900px) {
-        width: 35%;
-        position: absolute;
-        top:35%;
-        right:12%;
-        font-size: 9px;
+    
+}
+@media (max-width:900px) {
+    .styletile2 {
+    width: 35%;
+    position: absolute;
+    top:35%;
+    right:12%;
+    font-size: 9px;
     }
 }
-
 .ccc {
     width: 20%;
     position: absolute;
     right: 25%;
     bottom: 35%;
 
-    @media (max-width:900px) {
-        width: 25%;
-        position: absolute;
-        bottom:25%;
-        right:10%;
-        font-size: 9px;
+    
+}
+@media (max-width:900px) {
+    .ccc {
+    width: 25%;
+    position: absolute;
+    bottom:25%;
+    right:10%;
+    font-size: 9px;
     }
 }
-
 .projekt_container {
     padding: 10px;
     border: 1px;
@@ -200,12 +224,13 @@ main {
     text-decoration: none;
     text-align: center; 
     margin: 50px 500px;
-    
-    @media (max-width:900px) {
-        margin: 10px 150px;
+   
+}
+@media (max-width:900px) {
+    .projekt_container {
+    margin: 10px 150px;
     }
 }
-
 .projekt_container a {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
@@ -214,7 +239,9 @@ main {
     text-decoration: none;
     color:rgb(106, 76, 76);
 
-    @media (max-width:900px) {
-        font-size: 12px;
+}
+@media (max-width:900px) {
+    .projekt_container a {
+    font-size: 12px;
     }
 }

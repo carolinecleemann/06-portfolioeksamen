@@ -16,13 +16,14 @@ h1 {
     text-align: center;
     color: rgb(106, 76, 76);
 
-    @media (max-width:900px) {
-        font-size: 30px;
-        line-break: none;
-     }
-
 }
 
+
+@media (max-width:900px) {
+    h1 {
+    font-size: 30px;
+    }
+ }
 
 .biografi h2 {
     font-family: Arial, Helvetica, sans-serif;
@@ -35,17 +36,21 @@ h1 {
 
 .biografi p {
     font-family: "Montserrat", serif;
-    font-optical-sizing: auto;
+   
     font-weight: normal;
     font-style: normal;
     text-align: center;
     margin: 50px;
     font-size: 20px;
 
-    @media (max-width:900px) {
-       font-size: 14px;
-    }
+   
 }
+
+@media (max-width:900px) {
+    .biografi p {
+    font-size: 14px;
+    }
+ }
 
 .biografi h3 {
     font-family: Arial, Helvetica, sans-serif;
@@ -54,14 +59,17 @@ h1 {
     text-align: center;
     color: rgb(106, 76, 76);
 
-    @media (max-width:900px) {
-        font-size: 15px;
+}
+
+@media (max-width:900px) {
+    .biografi h3 {
+    font-size: 15px;
     }
 }
 
 .uddannelse li {
     font-family: "Montserrat", serif;
-    font-optical-sizing: auto;
+    
     font-weight: normal;
     font-style: normal;
     text-align: center;
@@ -69,11 +77,14 @@ h1 {
     gap: 30px;
     font-size: 18px;
 
-    @media (max-width:900px) {
-        font-size: 12px;
-     }
 }
 
+
+@media (max-width:900px) {
+    .uddannelse li {
+    font-size: 12px;
+    }
+ }
 
 
 .kreativ_container {
@@ -84,11 +95,14 @@ h1 {
     text-align: center;
     margin: 50px 500px;
 
-     
-    @media (max-width:900px) {
-        margin: 10px 150px;
-    }
 
+}
+
+  
+@media (max-width:900px) {
+    .kreativ_container {
+    margin: 10px 150px;
+    }
 }
 
 .kreativ_container a {
@@ -99,10 +113,12 @@ h1 {
     text-decoration: none;
     color:rgb(106, 76, 76);
 
-    @media (max-width:900px) {
-        font-size: 12px;
+
+
+}
+
+@media (max-width:900px) {
+    .kreativ_container a {
+    font-size: 12px;
     }
-
-
-
 }
